@@ -14,3 +14,22 @@ a{
     margin: 0 auto;
 }
 /* common css style end */
+
+/* header section style start */
+#headerTop{
+    background: #20282D;
+  
+}
+.headerTopLeft a{
+    display: inline-block;
+    margin-left: 20px;
+    color:#fff;
+    line-height: 48px;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+.headerTopLeft i{
+    margin-right: 7px;
+    padding-left: 15px;
+}
+/* header section style end */
