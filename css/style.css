@@ -20,16 +20,102 @@ a{
     background: #20282D;
   
 }
+.headerTopPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .headerTopLeft a{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
     color:#fff;
     line-height: 48px;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
 }
+.supportEmail:hover{
+border-bottom: 1px solid white;
+
+}
 .headerTopLeft i{
     margin-right: 7px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
+    
 }
+/* .headerTopLeft i a{
+    padding:0 20px ;
+} */
+.headerTopRight a{
+    color: white;
+    padding-left: 10px;
+    font-size: 14px;
+    
+}
+.khara{
+    padding: 0 20px;
+}
+/* nav section style start */
+#navbar{
+    background: #FFFFFF;
+    box-shadow: 5px 5px 50px 0px;
+   
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    
+}
+.navLeft img{
+    height: 53px;
+    width: 193px;
+    margin-left: 40px;
+} 
+.navMiddle .menu ul {
+ display: flex;
+ column-gap: 30px;
+}
+.navMiddle .menu ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+}
+.navRight  a {
+    
+  margin-left: 20px;
+    
+}
+.search{
+    
+    
+    padding: 15px;
+    border-radius:15px ;
+    background: #F2F2F2;
+    color: #000;
+    margin-left: 20px;
+}
+.btn{
+    padding: 13px 24px;
+    background: #20282D;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+.bar{
+    height: 55px;
+    width: 55px;
+    background: #F2F2F2;
+    padding: 15px;
+    border-radius:15px ;
+    color: black;
+    margin-left: 20px;
+}
+.quate{
+    color: white;
+}
+/* nav section style end */
+
 /* header section style end */
