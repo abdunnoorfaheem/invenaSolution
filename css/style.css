@@ -96,7 +96,7 @@ border-bottom: 1px solid white;
     color: #000;
     margin-left: 20px;
 }
-.btn{
+.btn a{
     padding: 13px 24px;
     background: #20282D;
     color: white;
