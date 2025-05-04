@@ -120,3 +120,61 @@ border-bottom: 1px solid white;
 /* nav section style end */
 
 /* header section style end */
+
+/* main section style start */
+/* banner section style start */
+
+.bannerPart{
+
+}
+.banner{
+    background: url("/img/banner.webp");
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerContent{
+    text-align: center;
+    color: white;
+    padding-top: 130px;
+   
+    
+}
+.bannerContent h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Red Hat Display", sans-serif;
+    margin-top: 40px;
+}
+.bannerContent h4 span{
+    font-weight: 700;
+}
+.bannerContent h1{
+    font-size: 80px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 90px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.bannerContent p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.bannerContent div{
+    margin-top: 40px;
+    font-family: "DM Sans", sans-serif;
+
+}
+.bannerContent div a{
+    color: black;
+    background:white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-weight: 500;
+   
+}
+/* banner section style end */
+/* main section style end */
