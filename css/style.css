@@ -128,7 +128,7 @@ border-bottom: 1px solid white;
 
 }
 .banner{
-    background: url("/img/banner.webp");
+    background: url("../img/banner.webp");
     height: 850px;
     background-position: center;
     background-repeat: no-repeat;
