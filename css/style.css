@@ -1,103 +1,122 @@
 /* common css style start */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-ol,ul{
+
+ol,
+ul {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.container{
+
+.container {
     width: 1320px;
     margin: 0 auto;
 }
+
 /* common css style end */
 
 /* header section style start */
-#headerTop{
+#headerTop {
     background: #20282D;
-  
+
 }
-.headerTopPart{
+
+.headerTopPart {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.headerTopLeft a{
+
+.headerTopLeft a {
     display: inline-block;
     margin-left: 10px;
-    color:#fff;
+    color: #fff;
     line-height: 48px;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
 }
-.supportEmail:hover{
-border-bottom: 1px solid white;
+
+.supportEmail:hover {
+    border-bottom: 1px solid white;
 
 }
-.headerTopLeft i{
+
+.headerTopLeft i {
     margin-right: 7px;
     /* padding-left: 15px; */
-    
+
 }
+
 /* .headerTopLeft i a{
     padding:0 20px ;
 } */
-.headerTopRight a{
+.headerTopRight a {
     color: white;
     padding-left: 10px;
     font-size: 14px;
-    
+
 }
-.khara{
+
+.khara {
     padding: 0 20px;
 }
+
 /* nav section style start */
-#navbar{
+#navbar {
     background: #FFFFFF;
     box-shadow: 0px 0px 30px 0px;
-   
-    
+
+
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 110px;
-    
+
 }
-.navLeft img{
+
+.navLeft img {
     height: 53px;
     width: 193px;
     margin-left: 40px;
-} 
-.navMiddle .menu ul {
- display: flex;
- column-gap: 30px;
 }
-.navMiddle .menu ul li a{
+
+.navMiddle .menu ul {
+    display: flex;
+    column-gap: 30px;
+}
+
+.navMiddle .menu ul li a {
     font-size: 16px;
     font-weight: 700;
     font-family: "DM Sans", sans-serif;
     color: black;
 }
-.navRight  a {
-    
-  margin-left: 20px;
-    
+
+.navRight a {
+
+    margin-left: 20px;
+
 }
-.search{
-    
-    
+
+.search {
+
+
     padding: 15px;
-    border-radius:15px ;
+    border-radius: 15px;
     background: #F2F2F2;
     color: #000;
     margin-left: 20px;
 }
-.btn a{
+
+.btn a {
     padding: 13px 24px;
     background: #20282D;
     color: white;
@@ -105,18 +124,21 @@ border-bottom: 1px solid white;
     border-radius: 12px;
     margin-left: 20px;
 }
-.bar{
+
+.bar {
     height: 55px;
     width: 55px;
     background: #F2F2F2;
     padding: 15px;
-    border-radius:15px ;
+    border-radius: 15px;
     color: black;
     margin-left: 20px;
 }
-.quate{
+
+.quate {
     color: white;
 }
+
 /* nav section style end */
 
 /* header section style end */
@@ -124,23 +146,24 @@ border-bottom: 1px solid white;
 /* main section style start */
 /* banner section style start */
 
-.bannerPart{
+.bannerPart {}
 
-}
-.banner{
+.banner {
     background: url("../img/banner.webp");
     height: 850px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bannerContent{
+
+.bannerContent {
     text-align: center;
     color: white;
     padding-top: 130px;
-   
-    
+
+
 }
+
 .bannerContent h4 {
     text-transform: uppercase;
     font-size: 18px;
@@ -148,33 +171,184 @@ border-bottom: 1px solid white;
     font-family: "Red Hat Display", sans-serif;
     margin-top: 40px;
 }
-.bannerContent h4 span{
+
+.bannerContent h4 span {
     font-weight: 700;
 }
-.bannerContent h1{
+
+.bannerContent h1 {
     font-size: 80px;
     font-family: "DM Sans", sans-serif;
     line-height: 90px;
     margin-top: 30px;
     font-weight: 700;
 }
-.bannerContent p{
+
+.bannerContent p {
     font-size: 18px;
     line-height: 30px;
     margin-top: 20px;
 }
-.bannerContent div{
+
+.bannerContent div {
     margin-top: 40px;
     font-family: "DM Sans", sans-serif;
 
 }
-.bannerContent div a{
+
+.bannerContent div a {
     color: black;
-    background:white;
+    background: white;
     padding: 15px 30px;
     border-radius: 15px;
     font-weight: 500;
-   
+
 }
+
+.bannerBtn:hover {
+    background: #000;
+    color: white;
+    transition: 0.3s;
+}
+
 /* banner section style end */
+/* about us section style start */
+#aboutUs{
+   width: 100%;
+   height: 800px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.aboutUsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUsLeft{
+  width: 50%;
+}
+.aboutUsLeft div img{
+    width: 547px;
+}
+.aboutUsLeftContent{
+    position: relative;
+}
+.tip{
+    background: #20282D;
+    color: white;
+    width: 192px;
+    height: 140px;
+    border-radius: 15px;
+    position: absolute;
+    top: 60px;
+    right: 520px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+.tip h4{
+   font-size: 36px;
+   
+   font-family: "DM Sans", sans-serif;
+    
+    
+}
+.tip p{
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+}
+.tipTwo{
+    position: absolute;
+    bottom: 70px;
+    right: 60px;
+}
+.tipTwoImg{
+   width: 211px!important;
+   height: 237px!important;
+}
+.aboutUsRight{
+ width: 45%;
+}
+.aboutUsRight h4{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    color: #5D666F;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.aboutUsRight h3{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    color:#1C2539;
+    margin-top: 30px;
+}
+.aboutUsInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutUsInfo>p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5D666F;
+}
+.aboutUsInfo p span{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5D666F;
+    padding-left: 5px;
+}
+.phoneinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phoneinfo .signeture{
+    margin-right: 120px;
+    
+}
+
+.phoneinfoContent{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #5d666f32;
+    padding-right: 30px;
+}
+.phoneinfoContent .phoneinfoLeft {
+    background: #20282D;
+    padding: 20px 20px;
+    color: white;
+    border-radius: 20px;
+    margin-right: 17px;
+    
+}
+.phoneinfoLeft{}
+.phoneinfoRight{
+    
+}
+.phoneinfoRight p{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #5D666F;
+}
+.phoneinfoRight a{
+    color:#1C2539;
+    line-height: 26px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    
+}
+/* about us section style end */
 /* main section style end */
